@@ -1,0 +1,47 @@
+.cont-ques{
+   
+    display: flex;
+    flex-direction: column;
+    margin: 1% 0%;
+    
+}
+.cont-ques> .question{
+
+    padding: 1%;
+    background-color:rgb(150 225 251);
+ 
+    
+
+}
+.cont-ques > .ques-item{
+    background-color: rgb(213, 242, 255);
+   
+    padding: 1%;
+}
+
+.cont-ques>.ques-item>input{
+    cursor: pointer;
+}
+.cont-ques > .ques-sub {
+
+ 
+    display: flex;
+    flex-direction: column;
+
+ 
+    
+
+}
+.cont-ques > .ques-sub > button {
+    border-radius: 5px ;
+  
+    background-color: rgb(91, 80, 252);
+    padding: 1%;
+  
+    
+    
+}
+.cont-ques > .ques-sub > button:hover{
+    cursor: pointer;
+    background-color: rgb(181, 61, 250);
+}
